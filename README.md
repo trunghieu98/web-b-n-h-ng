@@ -1,2 +1,2 @@
-# web-b-n-h-ng
+# web-bang-hang
 đây là website bán hàng điện tử
