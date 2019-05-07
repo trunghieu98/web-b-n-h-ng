@@ -1,0 +1,485 @@
+*{
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+        color: #fff;
+        top:0;
+}
+.top{
+    background: black;
+    height: 50px;
+}
+.wrapper1{
+    width:100%;
+}
+.top ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.top .col-md-8{
+    height: 100%;
+}
+
+.top ul li{
+    display: inline;
+}
+
+.top ul li:hover a{
+    text-decoration: none;
+    color: blue;
+}
+
+.top ul li a{
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.danhmuc{
+    background: #253b75;
+color: #fff;
+    height: 50px;
+}
+
+.danhmuc ul{
+    list-style-type: none;
+    margin-top: 12px;
+}
+.danhmuc ul li{
+    display: inline;
+}
+
+.danhmucsp{
+    padding-left: 115px;
+}
+
+#text_search{
+    color:black !important;
+    width: 261px !important;
+    height: 42px;
+    border: none;
+    background: none;
+    float: left;
+    outline: none;
+    padding: 0px 11px;
+}
+
+.search {
+    margin-left: 14px;
+    margin-top: 6px;
+    height: 40px;
+    float: left;
+    position: relative;
+    /* margin-right: 5px; */
+    background: #ffff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: solid 1px #000000;
+}
+
+#submit_search {
+    height: 36.5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    color: #fff;
+    background-image: url(../img/img2.png);
+    width: 50px;
+    border-left: solid 2px white;
+    font-size: 0;
+    outline: none;
+    background-position: center;
+    background-size: cover;
+}
+
+.icon1{
+    font-size: 44px;
+    margin-top: 3px;
+}
+
+.row p{
+    font-size: 18px;
+}
+
+.row .col-md-5 h3{
+    font-size: 25px;
+    margin-top: -11px;
+}
+
+.tk{
+    margin-top: 2px;
+    margin-left: -10px;
+}
+
+.cart{
+    cursor: pointer;
+    font-size: 38px;
+    color:white;
+}
+
+.tk1{
+    margin-left: -20px;
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.giohang{
+    position: relative;
+}
+
+.so{
+    top: 22px;
+    font-size: 23px;
+    position: absolute;
+}
+.mucsp{
+    font-size: 31px;
+}
+.menusp1{
+    margin-left: 45
+}
+.dmsp{
+    cursor: pointer;
+    font-size: 19px;
+}
+.danhmucspp{
+    margin-top: 5px;
+}
+.cartghh{
+    font-size: 24px;
+}
+.danhmucsp li i{
+    color: white;
+    font-size: 26px;
+}
+.danhmucsp li a{
+    
+    font-size: 17px;
+}
+.tk1 a{
+    color:white;
+}
+/* boody*/
+.bodythan .than{
+   width: 80%;
+    margin-left: 10%;
+    margin-top: 10%
+}
+.than{
+    /*background-color: aqua;
+    margin-top: 160px;
+    position: absolute;
+    */color: #000;
+}
+.colbody1 {
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+
+}
+
+.border-top{
+    border-top: 1px solid #dee2e6 !important;
+}
+.mtop-4{
+    margin-top: 1.5rem !important;
+}
+.mtop-5{
+    margin-top: 3rem !important;
+    margin: 9px;
+}
+.tieudechu{
+    color: #000;
+    padding: 13px;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19);
+    margin: 15px;
+}
+.my-2{
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+}
+
+.kichthuocvo{
+    width: 77%;
+    margin: 0 auto;
+}
+
+.kichthuocvo input.button {
+    font-size: 13px;
+    color: #fff;
+    background: #0879c9;
+    text-decoration: none;
+    /* border: none; */
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 13px;
+    /* outline: none; */
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.kichthuocvo input.button:hover {
+    background: #000;
+}
+.mbt1{
+    margin-bottom: 4rem !important;
+}
+
+.bodyleft{
+    margin-top: 0 !important;
+    background-color: #F9F9F9;
+
+}
+#tksubmit{
+    background: url(../images/search.png) no-repeat 13px 11px #0879c9;
+    width: 44px;
+    height: 39px;
+    border: none;
+}
+#tksearch {
+    margin-left: 5px;
+    background: #fff;
+    border: none;
+    width: 78%;
+    padding: 11px 10px 10px 10px;
+    font-size: 14px;
+    color: #c4c4c4;
+}
+.canhle ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.my-1{
+    margin-top: 0.5rem !important;
+    margin-bottom:0.5rem !important;
+}
+.canhle{
+    margin: 8px;
+    /* margin-left: -10px; */
+    padding: 10px;
+}
+.lefttong h3{
+margin-left: 13px;
+color: red;
+}
+.border-bottom{
+    margin-top: 13px;
+    border-top: 1px solid #dee2e6 !important;
+}
+input.checked {
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+
+}
+.canhle ul li{
+    display: inline-block;
+width: 100%;
+margin-bottom: 6px;
+}
+.theh3{
+    margin-left: 10px;
+}
+ul li a{
+    color: #000;
+}
+/* //body */
+/* footer*/
+.footer{
+    margin-top: 15%;
+background-color: #000;
+}
+.footer .row .col-md-4{
+    color: #fff;
+    
+}
+.footer .row .col-md-4 a{
+    color: #fff;
+    list-style-type: none;
+}
+.footer-center{
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+}
+.theinput{
+    margin-left: 15%;
+    width: 78%;
+    color: black;
+    border: none;
+    padding: 11px 10px 10px 10px;
+
+}
+.thebutton{
+    margin-top: 13px;
+    color: black;
+    width: 23%;
+    background: darkgray;
+    border: none;
+    padding: 11px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+.mtop-footer{
+    margin-top: 30px;
+}
+.footer-size{
+    font-size: 27px;
+    color: lightblue;
+    margin-left: -39px;
+}
+.mt-mb{
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+.divbottom{
+    height: 30px;
+    width:100%;
+    background-color:wheat; 
+    text-align: center;
+    font-size: 20px;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu-content a:hover {background-color: #ddd;}
+  
+  .menu:hover .menu-content {display: block;}
+  .menu-content a{
+      color:blue;
+  }
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    margin-left: 75%;
+    /* right: 0; */
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/**/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .theasubmit{
+      font-size: 13px;
+    color: #fff;
+    background: #0879c9;
+    text-decoration: none;
+    /* border: none; */
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 13px;
+    /* outline: none; */
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+
+  }
+  .kichthuocvo button:hover {
+    background: #000;
+}
+.thehover{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.colbody12 {
+    width: 64% !important;
+    box-shadow: 0px 0px 15px 0px #D6D6D6;
+    height: 419px;
+    margin-left: 23% !important;
+}
+.iconhang{
+    
+    height: 45px;
+    padding: 12px;
+    width: 109px;
+    /* max-height: 28px; */
+    border: 1px solid black;
+}
+.buttont{
+
+    text-decoration: none !important;
+    border: 1px solid black;
+    color: red;
+    /* padding: 6px; */
+    padding-top: 2px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+}
+.dinhdang{
+    font-size: 22px;
+    font-family: fantasy;
+    text-decoration: none !important;
+}
+.tien{
+    color: red;
+    margin-left: 25px;
+}

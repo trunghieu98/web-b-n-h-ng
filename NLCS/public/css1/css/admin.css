@@ -1,0 +1,53 @@
+*{
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 600;
+}
+.sidebar{
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+}
+.main11{
+   position:absolute !important;
+}
+#idlaptop0{
+    display: none;
+}
+#idlaptop1{
+    display: none;
+}
+.themsanpham{
+  
+    max-width:400px !important;
+}
+.scrollbar {
+
+    float: left;
+    background: #fff;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    width:98%;
+    }
+    .force-overflow {
+    min-height: 450px;
+}
+#themsanpham{
+    margin-top: 50px;
+    display: none;
+}
+.thetsp{
+    margin-left: 61px;
+    background-color: #337ab7;
+    color: white !important;
+}
+.form-group p{
+    color:red;
+}

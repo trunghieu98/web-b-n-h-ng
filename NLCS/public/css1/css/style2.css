@@ -1,0 +1,297 @@
+*{
+  font-family: 'Thasadith', sans-serif;
+}
+.hinhanh img{
+  width: 300px;
+    height: 300px;
+    margin-top: 70px;
+}
+.ngancach{
+     /* margin-left: 128px; */
+     background-color: beige;
+     border-bottom: 1px solid wheat;
+     /* margin-right: 127px; */
+     margin: 8px 126px;
+}
+.cursor {
+  cursor: pointer;
+}
+.right-sp{
+  width:120px;
+  float: right;
+}
+
+.right-an{
+  display: none;
+}
+
+
+
+
+
+.right_sp{
+  overflow: hidden;
+  background: #fff;
+  padding-top: 10px;
+}
+
+.right_sp li span {
+  display: table-cell;
+  width: 40%;
+  vertical-align: top;
+  padding: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+.right_sp li div {
+  display: table-cell;
+  width: auto;
+  vertical-align: top;
+  padding: 6px 5px;
+  font-size: 14px;
+  color: #333;
+}
+.right_sp li {
+  display: table;
+  background: #fff;
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding: 5px 0;
+}
+.text-h2{
+
+  text-shadow: 0px 1px black;
+  text-align: center;
+  color: red;
+  margin-top: 70px;
+}
+.rowadd{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+/* from dang ky*/
+.text-ten{
+    color: red;
+}
+.hero-image {
+  /* background-image: url("../images/hn1.jpg"); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* input[type=text], input[type=password] {
+  width: 100%;
+  padding: 7.5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+} */
+/* .btn {
+  background: #0879c9;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+} */
+
+.btn:hover {
+  opacity: 1;
+}
+/* .bg-img{
+  margin-left: 180px;
+} */
+.widthdk{
+  max-width: 690px;;
+  
+}
+.bg-img .col-md-4 p{
+      margin-top: 10px;
+  margin-bottom: 33px;
+  margin-left: 40px;
+}
+.btn-lable{
+
+  margin-left: -165px;
+  margin-right: 70px;
+}
+.bnt-dk{
+  width: 249px;
+}
+/* //fromdk*/
+/* san pham*/
+.col-md-4 img{
+  transition: all 0.3s ease 0s;
+  max-width: 100%;
+  height: 167px;
+}
+.col-md-4 img:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+h4 a{
+  color:black;
+}
+h4 a:hover {
+  text-decoration: none;
+  color: #23527c;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: #23527c;
+}
+
+.col-left{
+  margin-left: 78px;
+}
+.col-center{
+  margin-left: -70px;
+}
+.col-right {
+  margin-left: -56px;
+}
+.crow{
+  margin-top: 100px;
+    background-color: antiquewhite;
+    width: 100%;
+    max-width: 750px;
+}
+#laptopImg{
+  margin-top: 100px;
+  width: 100%;
+  height: 550px;
+}
+
+.hinh_gh{
+  width: 113px;
+  height: 43px;
+}
+.dinhle{
+  min-width: 10%;
+  width: 35px;
+  height: 35px;
+  margin-left: 151px;
+  margin-top: -72px;
+  margin-bottom: 40px;
+  background-color: red;
+}
+.leftright{
+  margin-right: 20px;
+  margin-left: 20px;
+  border:2px solid black;
+}
+.lf1{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  
+  
+}
+.bd-r{
+  border-right:2px solid black !important;
+  height: 120px;
+  
+}
+.bd-r1{
+  border-right: 2px solid black !important;
+  height: 47px;
+  padding: 14px;
+  /* margin-top: 16px; */
+  text-align: center;
+}
+
+.bd-r11{
+  height: 47px;
+  padding: 14px;
+  text-align: center;
+}
+.imgct{
+  max-width: 148px !important;
+    height: 113px !important;
+    margin-top: 2px !important;
+    margin-left: 26%;
+}
+.spanct{
+  margin-top: 40px;
+}
+.mt1{
+  border-top:2px solid black;
+}
+.from-dh{
+  /* height: 500px; */
+  /* border: 1px solid black; */
+  margin-left: 25px;
+}
+.heigh-r{
+  margin-left: 23% !important;
+}
+.height-d{
+  margin-top: 15px;
+}
+.inputt1{
+  width:32px;
+}
+.spanct1{
+  color:red;
+}
+.xlgh{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.xlghtt{
+  font-size: 17px;
+  height: 35px;;
+  color:white;
+  background-color:#35358e;
+  border:none;
+  text-shadow: 1px 1px 1px rgb(95, 132, 236);
+}
+.xlghttx{
+  background-color:#d20808;
+}
+.mauchu{
+  padding: 50px;
+  color:red;
+}    
+.ttdh{
+  margin-top: 20px;
+  color: orange;
+  font-size: 26px;
+}
+.ttdh1{
+  margin-left: 30px;
+}
+.fontc{
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  margin-left: 24px;
+  margin-right: 21px;
+}
+.btn1{
+  margin-left: 40%;
+  margin-bottom: 37px;
+  margin-top: 13px;
+}
+.btn2{
+  color:white;
+  background-color:orange;
+}
+.bntt2{
+  margin-left: 50%;
+}
+.clbd1{
+  margin-top: 124px;
+}
+.my-2 span{
+  color:red;
+}
